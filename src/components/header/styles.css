@@ -1,0 +1,19 @@
+header {
+  background-color: #2b2a4c;
+}
+
+.logo {
+  padding-top: 0.1rem;
+  font-family: "Alex Brush", cursive;
+}
+
+@media (min-width: 768px) {
+  nav ul li {
+    padding-right: 1rem;
+    border-right: 1px dotted white;
+  }
+
+  nav ul li:last-child {
+    border-right: unset;
+  }
+}
