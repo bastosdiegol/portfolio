@@ -1,0 +1,56 @@
+.section-title-wrapper svg,
+.project-icon svg {
+  width: 44px;
+  height: 44px;
+}
+
+.section-title {
+  color: rgb(238, 110, 59);
+  border-bottom: 2px solid rgb(179, 19, 18);
+  font-family: "Work Sans", sans-serif;
+}
+
+.project-article {
+  width: 100%;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted rgb(234, 144, 108);
+}
+
+.project-name-wrapper {
+  font-family: "Roboto", sans-serif;
+  color: #686868;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.project-article:last-child {
+  border-bottom: unset;
+}
+
+.project-content {
+  width: 100%;
+}
+
+.project-images {
+  width: 60%;
+}
+
+.project-img {
+  max-width: 100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  object-fit: scale-down;
+  margin: 0 auto;
+}
+
+.project-references {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-references a svg {
+  width: 24px;
+  height: 24px;
+}

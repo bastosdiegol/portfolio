@@ -1,0 +1,200 @@
+[
+  {
+    "id": 6,
+    "name": "Quill - Manuscript Tracking and Publishing Platform",
+    "about": "Quill is a collaborative manuscript tracking and publishing management system designed to support authors, employees, and department heads of a digital publishing company. The system enables authors to submit manuscripts, track their progress through publishing stages, and collaborate with editorial staff. Employees can manage submissions, coordinate tasks, and oversee department-specific manuscripts.",
+    "restriction": "Currently in a private repository, not available for public access. Demonstration available upon request.",
+    "features": [
+      "Frontend: React",
+      "Backend: Node.js with Express",
+      "Database: MySQL RDBMS",
+      "Docker Containerization",
+      "Authentication with Firebase JWT",
+      "RESTful API Design",
+      "OpenAPI Documentation",
+      "Postman for API Testing",
+      "Agile Methodology",
+      "Sprint-based Development",
+      "GitHub Actions CI/CD",
+      "GitHub Projects",
+      "GitHub Issues",
+      "Tailwind"
+    ],
+    "image": {
+      "src": "project-img/quill-project.png",
+      "alt": "Quill - Manuscript Tracking and Publishing Platform"
+    },
+    "references": [
+      {
+        "href": "https://github.com/brunoqkz/quill",
+        "title": "Github Repository",
+        "icon": "github"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Codex - A Book Management PWA",
+    "about": "Codex is a responsive book management Progressive Web App (PWA) designed to help users organize, track, and review their personal library. It allows users to register books with titles, authors, ratings, and reading status, while ensuring secure authentication and data persistence with Firebase. Codex also features an AI-powered chatbot integration with Google Gemini.",
+    "restriction": "Client-side WPA with Firebase and Google Gemini integration",
+    "features": [
+      "Progressive Web App",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "Firestore Database",
+      "Google Gemini AI",
+      "GitHub Actions CI/CD"
+    ],
+    "image": {
+      "src": "project-img/codex-book-management-pwa.png",
+      "alt": "Codex - A Book Management PWA"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/codex",
+        "title": "Github Repository",
+        "icon": "github"
+      },
+      {
+        "href": "https://bastosdiegol.github.io/codex/",
+        "title": "External Link",
+        "icon": "external"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "React Chess Game",
+    "about": "React Chess is an interactive chess game built entirely with React and JavaScript, designed to run in the browser. The project demonstrates real-time board updates, legal move validation, piece highlighting, game state management, localization, and custom board themes.",
+    "restriction": "N/A.",
+    "features": [
+      "React",
+      "State Management",
+      "Custom Chess Engine in JavaScript",
+      "Localization",
+      "Custom UI Themes"
+    ],
+    "image": {
+      "src": "project-img/react-chess-game.png",
+      "alt": "React Chess Game"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/react-chess",
+        "title": "Github Repository",
+        "icon": "github"
+      },
+      {
+        "href": "https://bastosdiegol.github.io/react-chess/",
+        "title": "External Link",
+        "icon": "external"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Air Hockey Mobile Game",
+    "about": "A mobile Air Hockey game built with React Native and Expo, physics library by Matter.js and sprite graphics. Players can swipe to strike the puck and compete against an AI opponent with varied difficulty levels. It uses a custom Entity-Component-System (ECS) architecture to manage game objects (paddles, puck, walls) and manage the physics simulation.",
+    "restriction": "Number of components on the screen, physics simulation, and interaction with the game objects",
+    "features": [
+      "React Native",
+      "Expo",
+      "React Native Game Engine",
+      "Matter.js",
+      "ECS Architecture",
+      "Sprite Graphics"
+    ],
+    "image": {
+      "src": "project-img/mobile-dev-2_project2.png",
+      "alt": "Air Hockey Mobile Game"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/info-5144-project/tree/air-hockey",
+        "title": "Github Repository",
+        "icon": "github"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lenz - A Responsive E-Commerce Web App",
+    "about": "A responsive, client-side e-commerce web application built from the ground up in plain HTML, CSS, and JavaScript. It features a product catalog, item detail pages, search and filtering, and a dynamic shopping cart. Developed as a capstone to the JavaScript I curriculum, it illustrates fundamental principles of object-oriented programming, code organization, and user-friendly interface design.",
+    "restriction": "No third-party frameworks or libraries",
+    "features": [
+      "OOP",
+      "Responsive (Mobile First)",
+      "JSDoc",
+      "Browser Persistency",
+      "Design Patterns"
+    ],
+    "image": {
+      "src": "project-img/javascript-1_project.png",
+      "alt": "Lenz - A Responsive E-Commerce Web App"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/info-1272-project",
+        "title": "Github Repository",
+        "icon": "github"
+      },
+      {
+        "href": "https://bastosdiegol.github.io/info-1272-project/",
+        "title": "External Link",
+        "icon": "external"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tic Tac Toe - Windows Desktop Mini-Game",
+    "about": "A desktop mini-game developed in C++ using OpenGL, FMOD, and MSBuild. The game features real-time rendering, game-state persistence, multilingual UI and dialogue through localization support. It was created using my own Game Engine.",
+    "restriction": "No proprietary game engine",
+    "features": [
+      "C++",
+      "OOP",
+      "OpenGL",
+      "Game State Persistency",
+      "Localization",
+      "FMOD",
+      "MSBuild",
+      "Design Patterns"
+    ],
+    "image": {
+      "src": "project-img/multidisciplinary_project.png",
+      "alt": "Tic Tac Toe - Windows Desktop Mini-Game"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/gdp-6046-project1",
+        "title": "Github Repository",
+        "icon": "github"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "A C++ Music Library Application",
+    "about": "A command-line “Spotify” music library application written in C++. This console program lets users load a catalog of songs from data files, create and manage playlists, and query library metadata. All this using a custom data structure created for this project.",
+    "restriction": "No C++ Standard Containers (Vectors, Iterators, Sets, and Maps)",
+    "features": [
+      "C++",
+      "Doubly Linked List",
+      "OOP",
+      "Data-File-to-Object Mapping",
+      "Class Template",
+      "Design Patterns"
+    ],
+    "image": {
+      "src": "project-img/framework-pattern_project.png",
+      "alt": "A C++ Music Library Application"
+    },
+    "references": [
+      {
+        "href": "https://github.com/bastosdiegol/gdp-6044-project1",
+        "title": "Github Repository",
+        "icon": "github"
+      }
+    ]
+  }
+]

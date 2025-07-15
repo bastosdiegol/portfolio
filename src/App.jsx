@@ -1,12 +1,15 @@
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Header from "./components/header";
+import Main from "./components/main";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <>
-      <img src={reactLogo} className="logo react" alt="React logo" />
-      Portfolio
-    </>
+    <div className="app">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }
 

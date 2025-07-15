@@ -1,0 +1,54 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./hero-image.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  font-family: "Work Sans", sans-serif;
+}
+
+.hello-wrapper {
+  color: rgb(143, 144, 153);
+}
+
+.hello-world {
+  font-family: "Spline Sans Mono", monospace;
+}
+
+.full-name {
+  position: relative;
+  overflow: hidden;
+  color: rgb(238, 110, 59);
+}
+
+.full-name::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(179, 19, 18);
+  animation: borderAnimation 2s ease-in-out forwards;
+}
+
+.presentation {
+  color: rgb(223, 224, 233);
+}
+
+.arrow-down svg {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes borderAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
